@@ -1,29 +1,19 @@
 {
-  "name": "al_dashboard",
+  "name": "reportgooglesheet",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "12.x",
-    "npm": "6.x"
-  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "google-spreadsheet": "^3.0.11",
     "highland": "^3.0.0-beta.3",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",
-    "node-sass": "^4.14.1",
     "nodemailer": "^4.6.7",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "1.1.4",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
-    "sass": "^1.26.9",
-    "sass-loader": "^9.0.0",
-    "tarball": "0.0.5",
-    "typescript": "^3.9.6",
     "xlsx": "^0.13.0"
   },
   "scripts": {
@@ -31,17 +21,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
