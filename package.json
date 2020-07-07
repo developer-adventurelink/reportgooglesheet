@@ -2,6 +2,9 @@
   "name": "reportgooglesheet",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "highland": "^3.0.0-beta.3",
