@@ -2,25 +2,6 @@ const hl = require("highland");
 const _ = require("lodash");
 const creds = require("./client_secret");
 const { GoogleSpreadsheet } = require('google-spreadsheet');
- 
-const { promisify } = require('util')
-
-//const credentials = require(./service-account.json')
-
-const SPREADSHEET_ID = '1AJL2t6cIYBBIyKTCMWs8j034UDq470UdSYOkplij1Cw';
-
-// Create a document object using the ID of the spreadsheet - obtained from its URL.
-var doc = new GoogleSpreadsheet('1AJL2t6cIYBBIyKTCMWs8j034UDq470UdSYOkplij1Cw');
-
-doc.useServiceAccountAuth(creds, (err) => {
-    if (err) {
-      console.log("Auth error: ", err);
-   } else {
-	console.log ('coming.........'); 
-   }
-});
-
-
 //console.log (docs) ; 
 const {
   streamRegistrations,
