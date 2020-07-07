@@ -2,9 +2,6 @@
   "name": "al_dashboard",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "12.x"
-  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "google-spreadsheet": "^3.0.11",
